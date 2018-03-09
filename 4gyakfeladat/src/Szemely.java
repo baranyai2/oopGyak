@@ -1,13 +1,13 @@
 public class Szemely {
 	
 	private String nev;
-	private double tomeg;
+	private int tomeg;
 	private double magassag;
 	private double tti;
 	private String alkat;
 	
 	public void testTomegIndex() {
-		tti = tomeg/(magassag*magassag);
+		tti = (double)(tomeg)/(magassag*magassag);
 	}
 	
 	public void ttiSzoveg() {
@@ -39,7 +39,7 @@ public class Szemely {
 		return tomeg;
 	}
 
-	public void setTomeg(double tomegvalami) {
+	public void setTomeg(int tomegvalami) {
 		tomeg = tomegvalami;
 	}
 

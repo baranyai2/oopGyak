@@ -11,9 +11,12 @@ public class SzemHaszn {
 		System.out.println("Adja meg a szemely nevet");
 		szemely.setNev(bemenet.nextLine());
 		System.out.println("Adja meg a szemely tomeget");
-		szemely.setTomeg(Double.parseDouble(bemenet.nextLine()));
+		szemely.setTomeg(Integer.parseInt(bemenet.nextLine()));
 		System.out.println("Adja meg a szemely magassagat");
 		szemely.setMagassag(Double.parseDouble(bemenet.nextLine()));
+		
+		szemely.testTomegIndex();
+		szemely.ttiSzoveg();
 		
 		System.out.println(szemely.toString());
 		
