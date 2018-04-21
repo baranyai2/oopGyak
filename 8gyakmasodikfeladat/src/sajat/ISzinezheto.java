@@ -1,6 +1,6 @@
 package sajat;
 
-import java.awt.Color;;
+import java.awt.Color;
 
 public interface ISzinezheto {
 	Color alapertelmezettSzin = Color.RED;

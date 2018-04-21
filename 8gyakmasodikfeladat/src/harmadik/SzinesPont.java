@@ -33,6 +33,4 @@ public class SzinesPont extends Pont implements ISzinezheto {
 	public String toString() {
 		return "SzinesPont szin: " + szin + " getSzin: " + getSzin() + " toString: " + super.toString();
 	}
-
-	
 }
